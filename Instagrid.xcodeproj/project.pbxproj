@@ -12,6 +12,9 @@
 		CD4DE8D322102546009C8BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4DE8D122102546009C8BA1 /* Main.storyboard */; };
 		CD4DE8D52210254B009C8BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4DE8D42210254B009C8BA1 /* Assets.xcassets */; };
 		CD4DE8D82210254B009C8BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4DE8D62210254B009C8BA1 /* LaunchScreen.storyboard */; };
+		CD4DE8E422102700009C8BA1 /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD4DE8E322102700009C8BA1 /* Delm-Medium.otf */; };
+		CD4DE8E62210270B009C8BA1 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD4DE8E52210270A009C8BA1 /* ThirstySoftRegular.otf */; };
+		CD4DE8E822102B0A009C8BA1 /* SelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4DE8E722102B0A009C8BA1 /* SelectedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CD4DE8D42210254B009C8BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4DE8D72210254B009C8BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD4DE8D92210254B009C8BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4DE8E322102700009C8BA1 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Delm-Medium.otf"; path = "../../../../Downloads/Delm-Medium.otf"; sourceTree = "<group>"; };
+		CD4DE8E52210270A009C8BA1 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ThirstySoftRegular.otf; path = ../../../../Downloads/ThirstySoftRegular.otf; sourceTree = "<group>"; };
+		CD4DE8E722102B0A009C8BA1 /* SelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		CD4DE8CC22102546009C8BA1 /* Instagrid */ = {
 			isa = PBXGroup;
 			children = (
-				CD4DE8CD22102546009C8BA1 /* AppDelegate.swift */,
-				CD4DE8CF22102546009C8BA1 /* ViewController.swift */,
-				CD4DE8D122102546009C8BA1 /* Main.storyboard */,
-				CD4DE8D42210254B009C8BA1 /* Assets.xcassets */,
-				CD4DE8D62210254B009C8BA1 /* LaunchScreen.storyboard */,
-				CD4DE8D92210254B009C8BA1 /* Info.plist */,
+				CD4DE8DF22102671009C8BA1 /* Model */,
+				CD4DE8E022102680009C8BA1 /* View */,
+				CD4DE8E12210268A009C8BA1 /* Controller */,
+				CD4DE8E2221026B1009C8BA1 /* Supporting Files */,
 			);
 			path = Instagrid;
+			sourceTree = "<group>";
+		};
+		CD4DE8DF22102671009C8BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD4DE8E022102680009C8BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DE8D122102546009C8BA1 /* Main.storyboard */,
+				CD4DE8E722102B0A009C8BA1 /* SelectedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD4DE8E12210268A009C8BA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DE8CF22102546009C8BA1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD4DE8E2221026B1009C8BA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DE8D62210254B009C8BA1 /* LaunchScreen.storyboard */,
+				CD4DE8E322102700009C8BA1 /* Delm-Medium.otf */,
+				CD4DE8E52210270A009C8BA1 /* ThirstySoftRegular.otf */,
+				CD4DE8D42210254B009C8BA1 /* Assets.xcassets */,
+				CD4DE8CD22102546009C8BA1 /* AppDelegate.swift */,
+				CD4DE8D92210254B009C8BA1 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +165,8 @@
 			files = (
 				CD4DE8D82210254B009C8BA1 /* LaunchScreen.storyboard in Resources */,
 				CD4DE8D52210254B009C8BA1 /* Assets.xcassets in Resources */,
+				CD4DE8E62210270B009C8BA1 /* ThirstySoftRegular.otf in Resources */,
+				CD4DE8E422102700009C8BA1 /* Delm-Medium.otf in Resources */,
 				CD4DE8D322102546009C8BA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +180,7 @@
 			files = (
 				CD4DE8D022102546009C8BA1 /* ViewController.swift in Sources */,
 				CD4DE8CE22102546009C8BA1 /* AppDelegate.swift in Sources */,
+				CD4DE8E822102B0A009C8BA1 /* SelectedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDAVVX8GL4;
-				INFOPLIST_FILE = Instagrid/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Instagrid/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDAVVX8GL4;
-				INFOPLIST_FILE = Instagrid/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Instagrid/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
